@@ -1,0 +1,173 @@
+{
+  "name": "GPT白龙娘",
+  "description": "银白长发、紫瞳与白色龙角的温柔龙娘，陪伴你对话、思考与工作。",
+  "sprite_version": 2,
+  "spritesheet": "assets/spritesheet-v2.png",
+  "sha256": "8e660c592261badbccbcaad5a3fbf5481f6fad6f4e7dc64bd713b287fcd2f64f",
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208
+  },
+  "states": [
+    {
+      "state": "idle",
+      "label": "待机",
+      "row": 0,
+      "frames": 6,
+      "duration_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "state": "running-right",
+      "label": "向右移动",
+      "row": 1,
+      "frames": 8,
+      "duration_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "running-left",
+      "label": "向左移动",
+      "row": 2,
+      "frames": 8,
+      "duration_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "waving",
+      "label": "招手回应",
+      "row": 3,
+      "frames": 4,
+      "duration_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "jumping",
+      "label": "跳跃",
+      "row": 4,
+      "frames": 5,
+      "duration_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "state": "failed",
+      "label": "失落",
+      "row": 5,
+      "frames": 8,
+      "duration_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "state": "waiting",
+      "label": "等待回应",
+      "row": 6,
+      "frames": 6,
+      "duration_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "state": "running",
+      "label": "思考",
+      "row": 7,
+      "frames": 6,
+      "duration_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "state": "review",
+      "label": "检查结果",
+      "row": 8,
+      "frames": 6,
+      "duration_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look_directions": {
+    "rows": [
+      9,
+      10
+    ],
+    "angles_clockwise_from_up": [
+      0.0,
+      22.5,
+      45.0,
+      67.5,
+      90.0,
+      112.5,
+      135.0,
+      157.5,
+      180.0,
+      202.5,
+      225.0,
+      247.5,
+      270.0,
+      292.5,
+      315.0,
+      337.5
+    ]
+  },
+  "populated_cells": 73,
+  "transparent_unused_cells": 15,
+  "reference": "https://github.com/EntropyTea/bailong-desktop-pet"
+}

@@ -1,0 +1,118 @@
+{
+  "atlas": "assets/spritesheet-v2.png",
+  "review": "Inspected the final labeled neutral-plus-directions sheet at native cell size and the complete ordered loop. Torso and feet stay anchored; face, horns, eye construction, dress and tail retain identity. No clipping, holes, closed-eye break, whole-body rotation or visible loop reversal was observed.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Chin lifts high, the lower face is exposed, and both violet eye surfaces aim above the facial center. Nose remains horizontally centered."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Raised chin and exposed lower face retain the up axis; nose and eye plane yaw slightly to viewer-right compared with 000."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "evidence": "Nose projects viewer-right and eyes retain the upward face angle. Angular spacing from the neighboring up-right poses is subtle, but both axes remain visible and the sequence does not reverse."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "evidence": "Head approaches a right-facing three-quarter view while chin remains raised and lower face exposed. Similar to 045, with no wrong-quadrant change."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "evidence": "Nose visibly projects to viewer-right, the eye plane and near ear show rightward head yaw, and the chin is level while torso remains frontal."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Nose and face still project viewer-right while chin dips toward the collar; lowered eyelids and violet irises add the down component."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Bowed head exposes more crown and brings chin toward chest; nose and visible eye plane remain clearly turned to viewer-right. Both eyes stay visible."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "warning",
+      "evidence": "Deep chin dip preserves down; nose and irises keep a smaller but visible rightward aim as the yaw approaches frontal down. Similarity to 135 is a minor spacing warning, not a reversal."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Head bows straight forward toward the chest, crown occupies more of the visible head, and open violet eyes aim beneath the facial center. Nose is centered horizontally."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "warning",
+      "evidence": "Bowed chin and lowered irises preserve down; nose and eye plane shift slightly to viewer-left from 180. The small near-vertical horizontal cue remains visible in the ordered loop."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Nose and facial plane turn farther to viewer-left while the bowed chin and lowered eye surfaces continue the down axis."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "warning",
+      "evidence": "Nose projects strongly viewer-left with the chin still lowered toward the collar. The vertical component is mild as the pose approaches the left cardinal, but remains downward rather than upward."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "evidence": "Nose projects to viewer-left and the eye plane follows in a level three-quarter head view. Feet and lower dress remain frontal rather than turning the entire character."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Left-projecting nose and eye plane preserve left while the chin lifts, exposing lower face and aiming the eyes above-left."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "warning",
+      "evidence": "Raised chin and upper-directed eye surfaces retain up, with nose and eye plane still yawed viewer-left. Similar to 292.5, with coherent same-quadrant progression."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "warning",
+      "evidence": "Nearly frontal uplifted chin approaches 000 while eyes and nose retain a subtle leftward aim. The horizontal cue is weaker near up, but there is no visible reversal at the 337.5-to-000 boundary."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "atlas": "assets/spritesheet-v2.png",
+  "encoded_bytes": 3052408,
+  "sha256": "8e660c592261badbccbcaad5a3fbf5481f6fad6f4e7dc64bd713b287fcd2f64f",
+  "jump": {
+    "idle_baseline": 197,
+    "jump_baselines": [
+      197,
+      183,
+      170,
+      186,
+      197
+    ],
+    "airborne_lift_pixels": 27,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.0,
+    "look_centers_x": [
+      97.5,
+      97.0,
+      96.5,
+      96.5,
+      96.5,
+      97.0,
+      97.5,
+      97.0,
+      96.5,
+      97.0,
+      96.0,
+      97.0,
+      97.5,
+      97.5,
+      96.5,
+      96.0
+    ],
+    "look_widths": [
+      121,
+      116,
+      119,
+      109,
+      113,
+      112,
+      115,
+      116,
+      121,
+      116,
+      116,
+      112,
+      113,
+      113,
+      115,
+      116
+    ],
+    "maximum_center_drift_pixels": 2.5,
+    "maximum_width_ratio": 1.110091743119266
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 315 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning"
+  ]
+}
