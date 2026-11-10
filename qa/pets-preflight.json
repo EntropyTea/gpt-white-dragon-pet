@@ -1,6 +1,6 @@
 {
   "valid": true,
-  "file_size_bytes": 3052408,
+  "file_size_bytes": 3216397,
   "mime_type": "image/png",
   "width": 1536,
   "height": 2288,
@@ -20,5 +20,7 @@
     8,
     8
   ],
-  "errors": []
+  "errors": [],
+  "atlas_sha256": "a3a290ad5f10efc1718c045a0231f6209547ebd5f0bfb0b324c31479b782eecb",
+  "source": "Pets validate_pet_spritesheet successful response"
 }

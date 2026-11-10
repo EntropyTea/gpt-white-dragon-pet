@@ -1,0 +1,78 @@
+{
+  "ok": true,
+  "reviewer": "independent portrait_visual_review agent",
+  "scope": "running / processing / thinking, zero-indexed row 7, six frames only",
+  "user_requested_portrait": true,
+  "review_method": "Visual inspection of the six-frame contact sheet at native 192x208 and 48x52 display sizes, individual transparent frames 01, 03 and 05, and canonical character reference. Ordered still frames were inspected; actual animated playback was not observed by this reviewer.",
+  "evidence": [
+    "All six portraits preserve silver-white wavy hair, violet eyes, pale segmented curved horns, curled ahoge, pointed ears and the rosette/tassel on screen-right.",
+    "The enlarged face remains readable at 48x52. Open eyes, half blink and full closed blink are visibly distinct.",
+    "Both horns, ahoge, hair and shoulder/bust contour are complete. No neighboring portrait bleed, clipped silhouette, detached hand or loose effects are visible.",
+    "The index finger rests on the chin and remains attached through the hand, sleeve and shoulder silhouette.",
+    "The ordered sequence reads as thoughtful chin rest, slight head tilt and gaze change, lowered eyelids, closed blink and return to a focused neutral pose.",
+    "Head size and registration remain coherent. Frame 6 is visually close to frame 1, supporting a loop; temporal smoothness must be assessed from the final encoded preview."
+  ],
+  "geometry": {
+    "cell_size": [
+      192,
+      208
+    ],
+    "alpha_bounds_by_frame": [
+      [
+        14,
+        5,
+        177,
+        201
+      ],
+      [
+        15,
+        5,
+        176,
+        202
+      ],
+      [
+        15,
+        5,
+        176,
+        202
+      ],
+      [
+        14,
+        5,
+        177,
+        203
+      ],
+      [
+        14,
+        5,
+        177,
+        202
+      ],
+      [
+        16,
+        5,
+        177,
+        201
+      ]
+    ],
+    "horizontal_center_range_pixels": [
+      95.5,
+      96.5
+    ],
+    "visible_width_range_pixels": [
+      161,
+      163
+    ],
+    "visible_height_range_pixels": [
+      196,
+      198
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "sources": [
+    "docs/thinking-frame-review.png",
+    "assets/spritesheet-v2.png row 7 frames 0-5",
+    "canonical character design reference"
+  ]
+}

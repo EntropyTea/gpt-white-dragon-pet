@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "stored_rgba_identical": true,
+  "expected_sha256": "a3a290ad5f10efc1718c045a0231f6209547ebd5f0bfb0b324c31479b782eecb",
+  "stored_sha256": "c344ac9f52e2b0450862020a14c6b898437ea85bbb4b5b7b03eab97669e6a8f2",
+  "changed_state": "running",
+  "changed_row": 7,
+  "changed_frames": 6,
+  "size": [
+    1536,
+    2288
+  ]
+}

@@ -3,7 +3,7 @@
   "description": "银白长发、紫瞳与白色龙角的温柔龙娘，陪伴你对话、思考与工作。",
   "sprite_version": 2,
   "spritesheet": "assets/spritesheet-v2.png",
-  "sha256": "8e660c592261badbccbcaad5a3fbf5481f6fad6f4e7dc64bd713b287fcd2f64f",
+  "sha256": "a3a290ad5f10efc1718c045a0231f6209547ebd5f0bfb0b324c31479b782eecb",
   "atlas": {
     "width": 1536,
     "height": 2288,
@@ -116,7 +116,7 @@
     },
     {
       "state": "running",
-      "label": "思考",
+      "label": "大头思考",
       "row": 7,
       "frames": 6,
       "duration_ms": [
@@ -126,7 +126,9 @@
         120,
         120,
         220
-      ]
+      ],
+      "presentation": "head-and-shoulders portrait; chin rest, upward glance and blink",
+      "preview": "previews/thinking.gif"
     },
     {
       "state": "review",
@@ -169,5 +171,6 @@
   },
   "populated_cells": 73,
   "transparent_unused_cells": 15,
-  "reference": "https://github.com/EntropyTea/bailong-desktop-pet"
+  "reference": "https://github.com/EntropyTea/bailong-desktop-pet",
+  "revision": "2026-11-01-thinking-portrait"
 }

@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "original": "previous Pets stored spritesheet (reencoded; RGBA-identical to repository baseline)",
+  "original_sha256": "25d3d03230d16dd9c39d3e22aba9a512b7fd560ddca5c7a26c7a5f43bce52b4e",
+  "revised": "assets/spritesheet-v2.png",
+  "revised_sha256": "a3a290ad5f10efc1718c045a0231f6209547ebd5f0bfb0b324c31479b782eecb",
+  "changed_row": 7,
+  "changed_state": "running",
+  "changed_columns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "all_other_rows_rgba_identical": true,
+  "look_rows_rgba_identical": true,
+  "rows": [
+    {
+      "row": 0,
+      "rgba_identical": true,
+      "original_rgba_sha256": "152d83e9914241c485f5e4e8dc04538609118c0b07dbab841631b0d9401a71bf",
+      "revised_rgba_sha256": "152d83e9914241c485f5e4e8dc04538609118c0b07dbab841631b0d9401a71bf"
+    },
+    {
+      "row": 1,
+      "rgba_identical": true,
+      "original_rgba_sha256": "12564d3e7b28beebd6c7041c359b4f4d36dd01fe27820f1136818224a0f43df4",
+      "revised_rgba_sha256": "12564d3e7b28beebd6c7041c359b4f4d36dd01fe27820f1136818224a0f43df4"
+    },
+    {
+      "row": 2,
+      "rgba_identical": true,
+      "original_rgba_sha256": "8b668dbefc158da8a2435e09966ab4c7c8481cd55673bc2587840fe0f67adb79",
+      "revised_rgba_sha256": "8b668dbefc158da8a2435e09966ab4c7c8481cd55673bc2587840fe0f67adb79"
+    },
+    {
+      "row": 3,
+      "rgba_identical": true,
+      "original_rgba_sha256": "85418f29bf29e517e9b0ff94d192f97fd084b8b588583135652457822ad42636",
+      "revised_rgba_sha256": "85418f29bf29e517e9b0ff94d192f97fd084b8b588583135652457822ad42636"
+    },
+    {
+      "row": 4,
+      "rgba_identical": true,
+      "original_rgba_sha256": "705897ab0acc87e9b56cc044bbe63b6ab8f50a14639e509dc3156100c5c04a51",
+      "revised_rgba_sha256": "705897ab0acc87e9b56cc044bbe63b6ab8f50a14639e509dc3156100c5c04a51"
+    },
+    {
+      "row": 5,
+      "rgba_identical": true,
+      "original_rgba_sha256": "c976c3b61b2207ba166cd4c97a07b52b539972d071675ff91f8cd7c07331e6a3",
+      "revised_rgba_sha256": "c976c3b61b2207ba166cd4c97a07b52b539972d071675ff91f8cd7c07331e6a3"
+    },
+    {
+      "row": 6,
+      "rgba_identical": true,
+      "original_rgba_sha256": "2bf0e4893b5fcb016be03bb02cf06e318a1aa151cf93149bb07041bb3942424d",
+      "revised_rgba_sha256": "2bf0e4893b5fcb016be03bb02cf06e318a1aa151cf93149bb07041bb3942424d"
+    },
+    {
+      "row": 7,
+      "rgba_identical": false,
+      "original_rgba_sha256": "299d01d643b4e0f4ee6a908c9dbde17c62459a416cdf5743c0e854de0dc0a014",
+      "revised_rgba_sha256": "68ce0e7cc2ae0da152d0b9322e7982c8c57cc2c2ce3b545492c592420491715c"
+    },
+    {
+      "row": 8,
+      "rgba_identical": true,
+      "original_rgba_sha256": "cf42a0b1863a34bd18353d432b307a825f69ba6965a611c802a3cb8606ad3b9a",
+      "revised_rgba_sha256": "cf42a0b1863a34bd18353d432b307a825f69ba6965a611c802a3cb8606ad3b9a"
+    },
+    {
+      "row": 9,
+      "rgba_identical": true,
+      "original_rgba_sha256": "e8470711a6fb5510882bc9261516f64b79c3e54064d41481de677d58b0f68c53",
+      "revised_rgba_sha256": "e8470711a6fb5510882bc9261516f64b79c3e54064d41481de677d58b0f68c53"
+    },
+    {
+      "row": 10,
+      "rgba_identical": true,
+      "original_rgba_sha256": "619f9a1b094de9f86af7bfd08fdddf461755ed10648fb736965a5e1386f19ae4",
+      "revised_rgba_sha256": "619f9a1b094de9f86af7bfd08fdddf461755ed10648fb736965a5e1386f19ae4"
+    }
+  ],
+  "baseline_commit": "9e6ffd0f8f4000fd1e6eb1d31cb22280fc56e7a7",
+  "baseline_sprite_sha256": "8e660c592261badbccbcaad5a3fbf5481f6fad6f4e7dc64bd713b287fcd2f64f"
+}
